@@ -1,2 +1,2 @@
 # Sorting_Visualizer
-Simple tool to learn sorting algorithms
+A sort visualizer is a tool that dynamically illustrates how various sorting algorithms, such as bubble sort, insertion sort and quicksort, rearrange data in real-time. It provides visual representations of the sorting process, showing how elements swap, partition, or merge. This helps users understand the mechanics of sorting algorithms and allows students and developers to experiment with and learn about algorithmic efficiency and behavior interactively.
