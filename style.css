@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap");
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(120, 144, 222);
+}
+hr{
+    background-color: rgb(120, 144, 222);
+}
+#text-display {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #54b3d6;
+    background-color: rgb(25, 58, 129);
+    width: 750px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+#text{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgb(79, 72, 164);
+    width: 900px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#myCanvas{
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+
+#btn{
+    position: relative;
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #1d007c;
+    border-radius: 7px;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    color: #54b3d6;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+#btn:hover{ 
+    color: #e44242;
+    box-shadow: inset 200px 0 0 0 #54b3d6;;
+    transition: transform 125ms;
+    transform: translateY(-4px);
+    }
+
+#btns{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 10px; 
+}
+
+#heading{
+    color: #ffffff;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color: rgb(88, 68, 217);
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+#range-speed{
+    position: relative;
+    cursor: pointer;
+    background-color: #1d007c;
+    border-radius: 7px;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    color: #54b3d6;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 10px; 
+}

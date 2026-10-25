@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="heading"><u><b>Sorting Visualizer</b></u></h1>
+    <div id="text">
+        A sort visualizer is a tool that dynamically illustrates how various sorting algorithms, such as bubble sort, insertion sort and quicksort, rearrange data in real-time. It provides visual representations of the sorting process, showing how elements swap, partition, or merge. This helps users understand the mechanics of sorting algorithms and allows students and developers to experiment with and learn about algorithmic efficiency and behavior interactively.
+    </div>
+    <hr>
+    <canvas id="myCanvas"></canvas>
+    <hr>
+ 
+    <div id="btns">
+        <button id="btn" onclick="init()">Generate random Array</button>
+        <button id="btn" onclick="bubble()">Bubble Sort</button>
+        <button id="btn" onclick="quick()">Quick Sort</button>
+        <button id="btn" onclick="insertion()">Insertion Sort</button>
+        <button id="btn" onclick="selection()">Selection Sort</button>
+    </div>
+    <hr>
+    <div id="range-speed">
+    <div id="range-container">
+        <label for="array-size">Array Size: </label>
+        <input type="range" id="array-size" min="10" max="70" value="30" oninput="updateArraySize(this.value)">
+        <span id="array-size-value">30</span>
+    </div>
+    <div id="speed-container">
+        <label for="animation-speed">Speed: </label>
+        <input type="range" id="animation-speed" min="1" max="100" value="50" oninput="updateSpeed(this.value)">
+        <span id="animation-speed-value">50</span>
+    </div>
+</div>
+    <div id="text-display"></div>
+    <script src="bubble_sort.js"></script>
+    <script src="insertion_sort.js"></script>
+    <script src="quick_sort.js"></script>
+    <script src="selection_sort.js"></script>
+    <script src="math.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
